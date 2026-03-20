@@ -4,7 +4,7 @@
 
 Built for the Palo Alto Networks Case Study Challenge – Green-Tech Inventory Assistant scenario.
 
-**Video Demo:** *[YouTube/Vimeo link will be added here]*
+**Video Demo:** [Watch on Google Drive](https://drive.google.com/file/d/1X53_LWzI5rcNebahjeti1lviCahNMrBK/view?usp=sharing)
 
 ---
 
