@@ -79,43 +79,15 @@ Green Cafe Manager is a single Streamlit app with **7 pages** that gives a cafe 
 
 ## Architecture
 
-```mermaid
-graph TD
-    subgraph Frontend["Streamlit Frontend (app.py)"]
-        Home
-        Dashboard
-        Menu["Menu Management"]
-        Stock["Stock & Inventory"]
-        Reports["AI Reports"]
-        Sustainability
-        Chat["AI Chat"]
-    end
-
-    subgraph Backend
-        DB["database.py<br/>SQLite (cafe.db)"]
-        AI["ai_engine.py<br/>OpenRouter API → 7 models + rule-based fallback"]
-    end
-
-    CSV["CSV Files<br/>(synthetic data)"] -->|loaded on first run| DB
-    Frontend --> DB
-    Reports --> AI
-    Chat --> AI
-    AI -->|reads data| DB
-```
+| Layer | Component | Role |
+|-------|-----------|------|
+| **Frontend** | `app.py` (Streamlit) | 7 pages – Home, Dashboard, Menu, Stock, AI Reports, Sustainability, AI Chat |
+| **Database** | `database.py` → SQLite (`cafe.db`) | Loaded from CSVs on first run. All CRUD, analytics, chat context |
+| **AI** | `ai_engine.py` → OpenRouter API | 7 model options + rule-based fallback if API fails |
 
 ### Data Flow
 
-```mermaid
-graph LR
-    A["CSV files"] -->|first run| B["SQLite DB"]
-    B --> C["Menu + Recipes"]
-    C -->|sale logged| D["Auto-deduct stock"]
-    D --> E["Expiry alerts<br/>Low stock warnings"]
-    E --> F["Usage + Waste logs"]
-    F --> G["Sustainability dashboard"]
-    F --> H["AI Reports<br/>(raw data → LLM)"]
-    F --> I["AI Chat<br/>(full DB context)"]
-```
+CSV files → SQLite (first run) → Menu + Recipes → Sale logged → Auto-deduct stock → Expiry/low-stock alerts → Usage & waste logs → AI Reports + Sustainability + AI Chat
 
 ---
 
