@@ -14,6 +14,9 @@ Aryan Banwala
 ## Scenario Chosen
 Green-Tech Inventory Assistant
 
+## Estimated Time Spent
+~3 hours
+
 ---
 
 ## Quick Start
