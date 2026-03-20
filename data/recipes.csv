@@ -1,0 +1,54 @@
+menu_item_id,ingredient,quantity_needed,unit
+1,Coffee Beans,0.02,kg
+1,Milk,0.15,liters
+1,Sugar,0.01,kg
+2,Coffee Beans,0.02,kg
+2,Milk,0.20,liters
+2,Sugar,0.01,kg
+3,Coffee Beans,0.03,kg
+3,Sugar,0.005,kg
+4,Coffee Beans,0.02,kg
+4,Milk,0.25,liters
+4,Sugar,0.02,kg
+4,Ice Cubes,3,pieces
+5,Green Tea Leaves,0.005,kg
+5,Honey,0.01,kg
+6,Cocoa Powder,0.03,kg
+6,Milk,0.20,liters
+6,Sugar,0.02,kg
+7,Bread,2,slices
+7,Paneer,0.05,kg
+7,Butter,0.01,kg
+7,Lettuce,0.02,kg
+8,Pasta,0.10,kg
+8,Olive Oil,0.02,liters
+8,Cheese,0.03,kg
+8,Bell Pepper,0.05,kg
+8,Tomato Sauce,0.05,liters
+9,Bread,2,slices
+9,Cheese,0.04,kg
+9,Butter,0.01,kg
+10,Lettuce,0.08,kg
+10,Cheese,0.03,kg
+10,Olive Oil,0.01,liters
+10,Croutons,0.02,kg
+11,Mushrooms,0.08,kg
+11,Butter,0.02,kg
+11,Milk,0.10,liters
+12,Cocoa Powder,0.02,kg
+12,Butter,0.03,kg
+12,Sugar,0.03,kg
+12,Flour,0.04,kg
+12,Eggs,1,pieces
+13,Cheese,0.06,kg
+13,Sugar,0.03,kg
+13,Butter,0.02,kg
+13,Flour,0.03,kg
+14,Milk,0.30,liters
+14,Vanilla Extract,0.005,liters
+14,Sugar,0.02,kg
+14,Ice Cubes,4,pieces
+15,Tea Leaves,0.005,kg
+15,Milk,0.10,liters
+15,Sugar,0.01,kg
+15,Ginger,0.005,kg

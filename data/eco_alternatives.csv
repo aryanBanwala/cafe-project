@@ -1,0 +1,15 @@
+ingredient,current_supplier,alternative_supplier,eco_rating,price_diff_pct,carbon_saved_kg
+Coffee Beans,Imported Blend,Local Roasters (Coorg),A,+12,1.2
+Milk,Amul Packets,Local Dairy Farm,A,+5,0.4
+Sugar,Generic White,Organic Jaggery Powder,A+,+20,0.3
+Bread,Commercial Bakery,Local Sourdough Bakery,A,-2,0.5
+Paneer,Amul,Local Dairy Farm,A,+8,0.3
+Butter,Amul,Local Dairy Farm,B,+10,0.2
+Cheese,Processed (Britannia),Artisan Local Cheese,A,+25,0.6
+Olive Oil,Imported (Borges),Cold-Pressed Indian,A,+5,0.8
+Pasta,Imported (Barilla),Local Wheat Pasta,B,+3,0.7
+Tomato Sauce,Canned (Kissan),Homemade from Local Tomatoes,A+,-15,0.4
+Mushrooms,Packaged (Grocery),Local Urban Farm,A,+10,0.2
+Eggs,Cage Farm,Free-Range Local Farm,A+,+18,0.5
+Cocoa Powder,Imported (Hershey),Indian Single-Origin,A,+15,0.9
+Flour,Refined (Maida),Stone-Ground Whole Wheat,A+,+8,0.3

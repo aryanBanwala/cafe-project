@@ -1,0 +1,16 @@
+id,name,sell_price,category
+1,Cappuccino,180,Beverage
+2,Latte,200,Beverage
+3,Espresso,120,Beverage
+4,Cold Coffee,160,Beverage
+5,Green Tea,100,Beverage
+6,Hot Chocolate,170,Beverage
+7,Paneer Sandwich,150,Food
+8,Veg Pasta,220,Food
+9,Cheese Toast,110,Food
+10,Caesar Salad,190,Food
+11,Mushroom Soup,140,Food
+12,Chocolate Brownie,130,Dessert
+13,Cheesecake Slice,180,Dessert
+14,Vanilla Milkshake,160,Beverage
+15,Masala Chai,60,Beverage
