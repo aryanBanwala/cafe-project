@@ -98,6 +98,60 @@ def render():
 
     st.markdown("---")
 
+    st.markdown("### About the sample data")
+    st.markdown("")
+
+    st.markdown(
+        """
+        This app comes pre-loaded with **one month of synthetic data** for a small Indian cafe.
+        Nothing is real — it's all made up so you can explore every feature right away.
+        """
+    )
+
+    col_d1, col_d2 = st.columns(2)
+
+    with col_d1:
+        with st.container(border=True):
+            st.markdown("**🍽️ The Cafe**")
+            st.markdown(
+                "A small cafe in India that sells coffee, tea, sandwiches, pasta, "
+                "salads, soups, and desserts. Prices are in ₹ (Indian Rupees). "
+                "Sales data covers **March 1–31, 2026** with realistic patterns — "
+                "weekends are busier, some items sell more than others."
+            )
+
+        with st.container(border=True):
+            st.markdown("**📋 Menu (15 items)**")
+            st.markdown(
+                "**Beverages:** Cappuccino, Latte, Espresso, Cold Coffee, Green Tea, "
+                "Hot Chocolate, Vanilla Milkshake, Masala Chai\n\n"
+                "**Food:** Paneer Sandwich, Veg Pasta, Cheese Toast, Caesar Salad, Mushroom Soup\n\n"
+                "**Desserts:** Chocolate Brownie, Cheesecake Slice"
+            )
+
+    with col_d2:
+        with st.container(border=True):
+            st.markdown("**📦 Ingredients (23 items)**")
+            st.markdown(
+                "Coffee Beans, Milk, Sugar, Green Tea Leaves, Honey, Cocoa Powder, "
+                "Bread, Paneer, Butter, Lettuce, Pasta, Olive Oil, Cheese, Bell Pepper, "
+                "Tomato Sauce, Mushrooms, Flour, Eggs, Croutons, Vanilla Extract, "
+                "Tea Leaves, Ginger, Ice Cubes\n\n"
+                "Each has a **quantity, unit, cost, purchase date, and expiry date**. "
+                "Some are already expired by mid-March — this is intentional so you can "
+                "see expiry alerts and waste tracking in action."
+            )
+
+        with st.container(border=True):
+            st.markdown("**🔗 How they connect**")
+            st.markdown(
+                "Each menu item has a **recipe** — e.g., 1 Cappuccino needs 0.02 kg Coffee + "
+                "0.15 L Milk + 0.01 kg Sugar. When sales are loaded, the app uses these recipes "
+                "to auto-deduct ingredients from stock. This is how the app knows what's running low."
+            )
+
+    st.markdown("---")
+
     st.markdown("### How does it work?")
     st.markdown("")
 

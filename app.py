@@ -71,7 +71,11 @@ global_date = st.sidebar.date_input(
     label_visibility="collapsed",
 )
 st.sidebar.caption(f"📅 {global_date.strftime('%A, %B %d, %Y')}")
-st.sidebar.caption("All pages use this date for calculations")
+st.sidebar.caption(
+    "Dashboard, Stock, Sales, Reports, and Sustainability all filter data up to this date. "
+    "Change it to see how the cafe looked on any day in March.\n\n"
+    "**AI Chat is not affected** — it always sees the full database regardless of this date."
+)
 
 st.sidebar.markdown("---")
 
