@@ -27,7 +27,7 @@ Green-Tech Inventory Assistant
 
 ### Run Commands
 ```bash
-git clone <repo-url>
+git clone https://github.com/aryanBanwala/cafe-project.git
 cd cafe-project
 
 python3 -m venv venv
@@ -238,8 +238,6 @@ cafe-project/
     ├── test_database.py      # 8 tests – CRUD, stock deduction, soft delete, waste
     └── test_ai_engine.py     # 5 tests – fallback report generation, format validation
 ```
-
----
 
 ---
 
